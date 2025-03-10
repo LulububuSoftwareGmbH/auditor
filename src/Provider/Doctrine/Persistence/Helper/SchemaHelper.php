@@ -28,7 +28,6 @@ abstract class SchemaHelper
                 'options' => [
                     'notnull' => true,
                     'length' => 10,
-                    'platformOptions' => $defaultTableOptions,
                 ],
             ],
             'object_id' => [
@@ -36,7 +35,6 @@ abstract class SchemaHelper
                 'options' => [
                     'notnull' => true,
                     'length' => 255,
-                    'platformOptions' => $defaultTableOptions,
                 ],
             ],
             'discriminator' => [
@@ -45,7 +43,6 @@ abstract class SchemaHelper
                     'default' => null,
                     'notnull' => false,
                     'length' => 255,
-                    'platformOptions' => $defaultTableOptions,
                 ],
             ],
             'transaction_hash' => [
@@ -53,7 +50,6 @@ abstract class SchemaHelper
                 'options' => [
                     'notnull' => false,
                     'length' => 40,
-                    'platformOptions' => $defaultTableOptions,
                 ],
             ],
             'diffs' => [
@@ -69,7 +65,6 @@ abstract class SchemaHelper
                     'default' => null,
                     'notnull' => false,
                     'length' => 255,
-                    'platformOptions' => $defaultTableOptions,
                 ],
             ],
             'blame_user' => [
@@ -78,7 +73,6 @@ abstract class SchemaHelper
                     'default' => null,
                     'notnull' => false,
                     'length' => 255,
-                    'platformOptions' => $defaultTableOptions,
                 ],
             ],
             'blame_user_fqdn' => [
@@ -87,7 +81,6 @@ abstract class SchemaHelper
                     'default' => null,
                     'notnull' => false,
                     'length' => 255,
-                    'platformOptions' => $defaultTableOptions,
                 ],
             ],
             'blame_user_firewall' => [
@@ -96,7 +89,6 @@ abstract class SchemaHelper
                     'default' => null,
                     'notnull' => false,
                     'length' => 100,
-                    'platformOptions' => $defaultTableOptions,
                 ],
             ],
             'ip' => [
@@ -105,7 +97,6 @@ abstract class SchemaHelper
                     'default' => null,
                     'notnull' => false,
                     'length' => 45,
-                    'platformOptions' => $defaultTableOptions,
                 ],
             ],
             'created_at' => [
